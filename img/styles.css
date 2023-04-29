@@ -1,0 +1,12 @@
+.abc{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    background-image: url(\assignment4\img\home-icon.png) ;
+    background-size: 199px;
+
+}
+
+.abc:hover{
+    background-position: -100px 0;
+}

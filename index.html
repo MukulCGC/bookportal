@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Book Portal</title>
+</head>
+
+<body class="bg-[#e8dfd7]">
+  <section class="my-24 mx-16 flex bg-[#ffffff] rounded-3xl">
+    <!-- Side Bar Starting -->
+
+    <div class="bg-[#faf7f5] pt-8 pb-8 w-[90px] rounded-l-3xl">
+      <nav>
+        <div class="ml-6 hover:bg-red-300  rounded-full w-14 h-14 hover:animate-bounce">
+          <img src="img/LOGO.png" alt="logo-image" class="w-10 h-10 pt-1 cursor-pointer ml-2" />
+        </div>
+        <div>
+          <button class="mt-24 ml-6 rounded-xl px-3 py-2 hover:bg-white">
+            <img src="img/home-icon.png" alt="home-icon" class="w-6 h- 6 hover:scale-110" />
+          </button>
+        </div>
+        <div>
+          <button class="mt-5 ml-6 rounded-xl px-3 py-2 hover:bg-white">
+            <img src="img/book icon.png" alt="book-icon" class="w-6 h-6 hover:scale-110" />
+          </button>
+        </div>
+        <div>
+          <button class="mt-5 ml-6 rounded-xl px-3 py-2 hover:bg-white">
+            <img src="img/stats icon.png" alt="statics-icon" class="w-6 h-6 hover:scale-110" />
+          </button>
+        </div>
+
+        <div>
+          <button class="mt-[26rem] ml-6 rounded-xl px-3 py-2 hover:bg-white">
+            <img src="img/settings-icon-removebg-preview.png" alt="setting-icon" class="w-6 h-6 hover:scale-110" />
+          </button>
+        </div>
+        <div>
+          <button class="mt-5 ml-6 rounded-xl px-3 py-2 hover:bg-white">
+            <img src="img/bellicon.png" alt="bell-icon" class="w-6 h- 6 hover:scale-110" />
+          </button>
+        </div>
+        <div>
+          <button class="mt-5 ml-6 rounded-full px-4 py-3 hover:bg-white">
+            <img src="img/userprofile-icon-removebg-preview.png" alt="userprofile-icon" class="w-6 h-6 hover:scale-110" />
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Side Bar Closed -->
+
+    <!-- Cover pic Starting -->
+
+    <div class="h-[220px] w-[1300px] rounded-tr-3xl ">
+      <div class="w-[1300px] h-[166px] bg-black rounded-r-3xl flex">
+        <div class="mt-24 w-32 h-32 ml-9">
+          <img src="img/download-modified.png" alt="" class="  hover:scale-110"/>
+        </div>
+        <div>
+          <h1 class="text-white text-2xl font-bold w-96 mt-32 ml-7">
+            Robert Downey
+            <span class="rounded-2xl bg-[#fec43f] w-28 h-7 pl-4 pr-3 text-[18px] ml-6 font-normal text-black">&#9733;
+              Pro User</span>
+          </h1>
+
+          <h1 class="text-black w-96 mt-4">
+            <span
+              class="rounded-2xl border-2 w-28 h-7 pl-4 pr-3 text-[18px] ml-6 font-medium text-black">#Romance</span>
+            <span
+              class="rounded-2xl border-2 w-28 h-7 pl-4 pr-3 text-[18px] ml-2 font-medium text-black">#Mystery</span>
+          </h1>
+
+        </div>
+        <div class="flex ml-20">
+          <img src="img/cover-image.png" alt="" class="h-[166px] rounded-tr-3xl" />
+        </div>
+
+
+      </div>
+
+      <!-- Starting Mid Containers having 4 divs (2 right + 2 Left) -->
+
+
+      <div class="mt-16 mr-10">
+
+        <div class="flex float-right ">
+          <div class=" w-[585px]">
+            <h1 class="ml-14 pt-4 text-2xl font-bold">Reading Now</h1>
+            <div class="flex mt-6 ml-6">
+              <div class=" rounded-3xl border-2 border-gray-200 w-72 h-[155px]">
+                <h1 class="text-xl font-semibold ml-6">Spare</h1>
+                <p class="text-gray-400 ml-6">by Prince Harry</p>
+                <div class="flex mt-7">
+                  <button class="bg-gray-300 hover:border-2 hover:bg-gray-400 rounded-3xl w-24  ml-6 mt-8 flex items-center pl-3">
+                    <img src="img/blackbook.png" alt="bookicon-img" class="w-3 h-3 mx-2 ">
+                    Read
+                  </button>
+                  <svg viewBox="0 0 36 36" class="circular-chart orange ml-20 ">
+                    <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">80%</text>
+                  </svg>
+                </div>
+              </div>
+  
+              <div class=" rounded-3xl border-2 border-gray-200  w-72 h-[155px] ml-4">
+                <h1 class="text-xl font-semibold ml-6">Matilda</h1>
+                <p class="text-gray-400 ml-6">by Rupy Kaur</p>
+                <div class="flex mt-7">
+                  <button class="bg-gray-300 hover:border-2 hover:bg-gray-400 rounded-3xl w-24  ml-6 mt-8 flex items-center pl-3">
+                    <img src="img/blackbook.png" alt="bookicon-img" class="w-3 h-3 mx-2 ">
+                    Read
+                  </button>
+                  <svg viewBox="0 0 36 36" class="circular-chart voilet ml-20 ">
+                    <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">90%</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+  
+            <div class="flex mt-4 ml-6">
+              <div class=" rounded-3xl border-2 border-gray-200 w-72 h-[155px] ">
+                <h1 class="text-xl font-semibold ml-6">The Mysteries</h1>
+                <p class="text-gray-400 ml-6">by Bill Watterson</p>
+                <div class="flex mt-7">
+                  <button class="bg-gray-300 hover:border-2 hover:bg-gray-400 rounded-3xl w-24  ml-6 mt-8 flex items-center pl-3">
+                    <img src="img/blackbook.png" alt="bookicon-img" class="w-3 h-3 mx-2 ">
+                    Read
+                  </button>
+                  <svg viewBox="0 0 36 36" class="circular-chart bluegreen ml-20 ">
+                    <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">50%</text>
+                  </svg>
+                </div>
+              </div>
+              <div class=" rounded-3xl border-2 border-gray-200 w-72 h-[155px] ml-4">
+                <h1 class="text-xl font-semibold ml-6">The Silent Patient</h1>
+                <p class="text-gray-400 ml-6">by Roald Dahl</p>
+                <div class="flex mt-7">
+                  <button class="bg-gray-300 hover:border-2 hover:bg-gray-400 rounded-3xl w-24  ml-6 mt-8 flex items-center pl-3">
+                    <img src="img/blackbook.png" alt="bookicon-img" class="w-3 h-3 mx-2 ">
+                    Read
+                  </button>
+                  <svg viewBox="0 0 36 36" class="circular-chart green ml-20 ">
+                    <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="35, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">35%</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+  
+            <div class=" ml-6 mt-6">
+              <h1 class="text-2xl font-bold">Book Reviews</h1>
+              <div class="bg-gray-50 py-2 rounded-2xl flex mt-[2.4rem] ">
+                <div class="flex"><img src="img/right-firstbook-removebg-preview.png" alt="book-cover-img"
+                    class="w-11 h-11 ml-2"></div>
+                <div class="ml-7">
+                  <div>
+                    <p class="font-bold">Things We Never Got Over</p>
+                  </div>
+                  <div class="flex ">
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>First star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Second star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Third star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Fourth star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-gray-300 dark:text-gray-500" fill="currentColor"
+                      viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <title>Fifth star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <span id="arrow" class="text-3xl text-gray-400 ml-52 "><a href="#"> &#8594;</a></span>
+
+              </div>
+  
+              <div class="bg-gray-50 py-2 rounded-2xl flex mt-3">
+                <div class="flex"><img src="img/right-second-book-removebg-preview.png" alt="book-cover-img"
+                    class="w-11 h-11 ml-2"></div>
+                <div class="ml-7 ">
+                  <div>
+                    <p class="font-bold">Already Briliant</p>
+                  </div>
+                  <div class="flex ">
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>First star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Second star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Third star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-gray-300 dark:text-gray-500" fill="currentColor"
+                      viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <title>Fifth star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-gray-300 dark:text-gray-500" fill="currentColor"
+                      viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <title>Fifth star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <span class="text-3xl text-gray-400 ml-[18.1rem] "><a href="#"> &#8594;</a></span>
+              </div>
+              <div class="bg-gray-50 py-2 rounded-2xl flex mt-3">
+                <div class="flex"><img src="img/right-third-book-removebg-preview.png" alt="book-cover-img"
+                    class="w-11 h-11 ml-2"></div>
+                <div class="ml-7 ">
+                  <div>
+                    <p class="font-bold">She Must Be Mad</p>
+                  </div>
+                  <div class="flex ">
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>First star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Second star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Third star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                    <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>First star</title>
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="bg-slate-950 w-40 rounded-xl py-1 flex items-center  ml-[11.6rem]" >
+                  <div class="bg-yellow-600 w-8 h-8 rounded-xl pt-[.59rem] pl-[.58rem] ml-2">
+                      <img src="img/right-tick-image-removebg-preview.png" alt="" class="w-3 h-3 ">
+                  </div>
+                  <h2 class="text-white ml-3 fon">Users choice</h2>
+              </div>
+                
+              </div>
+            </div>
+  
+          
+          </div>
+        </div>
+        <div id="right-div" class="w-[55%] fllex">
+          <h1 class="ml-9 pt-4 text-3xl font-bold">Bookshelf</h1>
+  
+          <!-- Container for Three books-->
+  
+  
+          <div class=" flex">
+            <div class="bg-red-500 w-[14rem] h-[18.5rem]  ml-9 rounded-3xl mt-12 ">
+              <div class="scale-150">
+                <img src="img/blackout-book-image.png" alt="" class="w-[4.6rem] h-28 rounded-xl -rotate-12 ml-[4.5rem] " />
+              </div>
+              <h1 class="mt-14 ml-6 font-bold text-white ">Blackout</h1>
+              <p class="ml-6 font-light text-white">by Sezen Ahiskal</p>
+              <div class="flex  ">
+                <button class="mt-5 ml-2 rounded-2xl w-24  bg-black text-white hover:bg-gray-500 hover:text-black">
+                  View
+                </button>
+                <button class="mt-5 ml-2 mr-2 rounded-2xl w-28 py-1 border-[1px] text-white hover:bg-gray-500">
+                  Buy for $12
+                </button>
+              </div>
+            </div>
+            <div class="bg-[#fbf9f9] hover:bg-red-500  w-[11rem] h-64 mx-9 rounded-3xl mt-12 hover:scale-125">
+              <div class="scale-150">
+                <img src="img/crow-book-image.jpg" alt="crow-book-image" class="w-16 h-24 rounded-xl mx-14" />
+              </div>
+              <h1 class="mt-12 ml-6 font-bold text-black">The Crow's Vow</h1>
+              <p class="ml-8 font-light text-gray-400  ">by Susan Briscoe</p>
+              <div class="flex pb-4">
+                <button
+                  class="mt-3 ml-10 rounded-2xl w-24 py-1 bg-red-500 border-white border-[1px] text-white hover:bg-gray-500 hover:border-2">
+                  View book
+                </button>
+              </div>
+            </div>
+            <div class="bg-[#fbf9f9] hover:bg-red-500  w-[rem] h-64 ml-1 rounded-3xl mt-12 hover:scale-125">
+              <div class=" scale-150">
+                <img src="img/mothershood-book-image.jpg" alt="mothershood-book-image"
+                  class="w-16 h-24 rounded-xl mx-12" />
+              </div>
+              <h1 class="mt-12 ml-6 font-bold text-black">Motherhood</h1>
+              <p class="ml-6 font-light text-gray-400 ">by Natalie Carnese</p>
+              <div class="flex pb-4">
+                <button
+                  class="mt-5 ml-10 rounded-2xl w-24 py-1 bg-red-500 border-white border-[1px] text-white hover:bg-gray-500 hover:border-2">
+                  View book
+                </button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- End Container for Three books-->
+          <div class="mt-12 ml-8 ">
+            <a href="" class="float-right mr-10 text-[#e7c292]"><u>View All</u></a>
+            <h1 class="w-16 font-bold text-2xl">Purchase</h1>
+  
+  
+            <table class=" mt-12 ">
+              <thead class=" border-b-2  border-gray-300 text-gray-300">
+                <tr>
+                  <th class="text-left ">
+                    Book
+                  </th>
+                  <th>
+                    <div>Genre</div> 
+                  </th>
+                  <th>
+                    <div>Date</div> 
+                  </th>
+                  <th>
+                    <div>Status</div> 
+                  </th>
+                  <th>
+                    <div>Price</div> 
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="border-separate  border-spacing-y-[.40rem]">
+                <tr class="">
+                  <td >
+                    <div class="float-right mt-3 ml-3">
+                      <h3>Milk and honey</h3>
+                    </div>
+                    <div
+                      class="relative  w-8 h-8 bg-[#faf7f5] rounded-full flex justify-center items-center text-center mt-3 ">
+                      03</div>
+                  </td>
+                  <td>
+                    <div class=" mt-0 ml-8 mr-8"> Peotry</div>
+                  </td>
+                  <td>
+                    <div class="mt-0 ml-8 mr-8">19 Jun</div>
+                  </td>
+                  <td><span
+                    class="rounded-2xl bg-[#fff1e0] w-28 h-6 pl-3 pr-3 py-1 font-normal text-[#d2b391] ml-8 mr-8 cursor-pointer hover:bg-red-400 hover:text-black">Reading</span>
+                  </td>
+                  <td>
+                    <div class="mt-0 ml-8 mr-8">$13</div>
+                  </td>
+                </tr>
+                <tr class="">
+                  <td>
+                    <div class="float-right mt-3 ml-3">
+                      <h3>Anxious People</h3>
+                    </div>
+                    <div
+                      class="relative w-8 h-8 bg-[#faf7f5] rounded-full flex justify-center items-center text-center mt-2">
+                      02</div>
+                  </td>
+                  <td>
+                    <div class=" mt-0 ml-8 mr-8"> Modern</div>
+                  </td>
+                  <td>
+                    <div class="mt-0 ml-8 mr-8">01 Apr</div>
+                  </td>
+                  <td><span
+                      class="rounded-2xl bg-[#fff1e0] w-28 h-6 pl-3 pr-3 py-1 font-normal text-[#d2b391] ml-8 mr-8 cursor-pointer hover:bg-red-400 hover:text-black">Reading</span>
+                  </td>
+                  <td>
+                    <div class="mt-0 ml-8 mr-8">$18</div>
+                  </td>
+                </tr>
+                <tr class="">
+                  <td>
+                    <div class="float-right mt-3 ml-3">
+                      <h3>It ends with us</h3>
+                    </div>
+                    <div
+                      class="relative  w-8 h-8 bg-[#faf7f5] rounded-full flex justify-center items-center text-center mt-2 ">
+                      01</div>
+                  </td>
+                  <td>
+                    <div class=" mt-0 ml-8 mr-8"> Romance</div>
+                  </td>
+                  <td>
+                    <div class="mt-0 ml-8 mr-8">12 Sep</div>
+                  </td>
+                  <td><span
+                      class="rounded-2xl bg-[#fff1e0] w-28 h-6 pl-3 pr-3 py-1 font-normal text-[#d2b391] ml-8 mr-10 cursor-pointer hover:bg-red-400 hover:text-black">Read</span>
+                  </td>
+                  <td>
+                    <div class="mt-0 ml-8 mr-8">$12</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
